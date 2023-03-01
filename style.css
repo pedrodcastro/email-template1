@@ -1,0 +1,149 @@
+body {
+    background-color: #FFE0FC;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    max-width: 600px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000000;
+    padding: 0 60px 64px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    gap: 32px;
+    padding: 24px 65px 16px 20px; 
+}
+
+.subtitulo {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.titulo-principal {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0A0A0A;
+}
+
+.subtitulo-secundario {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.subtitulo-terciario {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.texto-normal {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    background-color: #FFFFFF;
+    padding: 40px 72px 32px;
+    line-height: 150%;
+}
+
+.container-takeaway {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #F9F9F9;
+    padding: 24px 80px;
+    line-height: 140%;
+}
+
+.container-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-presente {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 32px 40px 80px;
+}
+
+.container-purchase {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.botao {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 12px 16px;
+    border-radius: 2px;
+}
+
+.presente-imagem {
+    width: 136px;
+    height: 136px;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 24px 80px;
+}
+
+footer h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.icons-container a {
+    width: 16px;
+    height: 16px;
+}
+
+footer span {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+footer span a {
+    color: #FFFFFF;
+}
